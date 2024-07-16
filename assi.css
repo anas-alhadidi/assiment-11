@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+/*////////////////////////////////////////////////////////////////////* header ////////////////////////////////////////////////////////////////////*/ 
+
+h1 {
+    margin: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+/*//////////////////////////////////////////////////////////////////// main /////////////////////////////////////////////////////////////////////////////*/
+.row{
+    
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.box{
+    border: 1px solid black;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    
+
+}
+
+
+p {
+    padding: 36px 7px;
+    background-color: hsl(0, 4%, 63%);
+
+}
+
+h4 {
+    position: absolute;
+    right: 0rem;
+    border: 1px solid;
+    padding: 5px 32px;
+}
+
+h4.label1 {
+    background-color: darksalmon;
+
+}
+
+h4.label2 {
+    background-color: crimson;
+    color: white;
+}
+
+h4.label3 {
+    background-color: burlywood;
+}
